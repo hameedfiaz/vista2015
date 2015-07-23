@@ -1,0 +1,130 @@
+
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Twenty by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="index">
+	<div id="fb-root"></div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=645440248825932";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+		<div id="page-wrapper">
+
+			<%== render :partial => "header" %>
+			<!-- Banner -->
+				<section id="banner">
+
+					<!--
+						".inner" is set up as an inline-block so it automatically expands
+						in both directions to fit whatever's inside it. This means it won't
+						automatically wrap lines, so be sure to use line breaks where
+						appropriate (<br />).
+					-->
+					<div class="inner">
+						<header>
+							<h2>VISTA '15</h2>
+							
+						</header>
+						<p>Let's be <strong>Indigenious</strong></p>
+						<br />
+						<p><strong>XX September, 2015</strong></p>
+						<footer>
+							<ul class="buttons vertical">
+								<li><a href="#main" class="button fit scrolly">REGISTER TODAY</a></li>
+							</ul>
+						</footer>
+
+					</div>
+
+				</section>
+
+			<!-- Main -->
+				<article id="main">
+
+					<%= render :partial => "indigenous" %>
+					
+					<!-- One -->
+						
+					<%= render :partial => "fii_iimb" %>
+
+					<!-- Two -->
+						
+					<%= render :partial => "speakers" %>
+
+					<!-- Three -->
+						
+					<%= render :partial => "events" %>
+					
+					<!-- Four -->
+						
+					<%= render :partial => "rewards" %>
+
+					<!-- Five -->
+						
+					<%= render :partial => "sponsors" %>
+
+				</article>
+
+			<!-- CTA -->
+				<section id="cta">
+
+					<header>
+						<h2>What are you <strong>waiting</strong> for ?</h2>
+						<p>It is <strong>Carpe diem time !</strong></p>
+					</header>
+					<footer>
+						<ul class="buttons">
+							<li><a href="#" class="button special">REGISTER NOW</a></li>
+						</ul>
+					</footer>
+
+				</section>
+
+
+
+			<!-- Footer -->
+				<footer id="footer">
+
+					<ul class="icons">
+						<li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
+					</ul>
+
+					<ul class="copyright">
+						<li>&copy; FII or IIMB 2015</li>
+					</ul>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/jquery.min.js"></script>
+			<script src="assets/jquery.dropotron.min.js"></script>
+			<script src="assets/jquery.scrolly.min.js"></script>
+			<script src="assets/jquery.scrollgress.min.js"></script>
+			<script src="assets/skel.min.js"></script>
+			<script src="assets/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/main.js"></script>
+
+	</body>
+</html>
